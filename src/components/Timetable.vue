@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header">
       <div v-for="stage in schedules" :style="{color: stage.color, flex: '0 0 ' + cellWidth + 'px'}">
-        <div :style="{transformOrigin: 'left top', transform: 'scale(0.66)', width: cellWidth * 1.5 + 'px'}">{{stage.name}}</div>
+        <div :style="{transformOrigin: 'left top', transform: 'scale(' + (cellWidth / 120.0) + ')', width: '120px'}">{{stage.name}}</div>
       </div>
     </div>
     <div class="main">

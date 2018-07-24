@@ -5,7 +5,7 @@
   :class="{checked: checkedStatus}"
   :style="{left: width * 0.05 + 'px', width: width * 0.9 + 'px', top: (((start - startHour * 60) / 60) * (heightHour + 2)) + 'px', height: (((end - start) / 60) * (heightHour + 2))  + 'px' }"
   >
-  <div :style="{transformOrigin: 'left top', transform: 'scale(' + width / 70.0 + ')', width: width * 0.9 * (70.0 / width) + 'px'}">{{toHhmm(start)}}-{{toHhmm(end)}}<br/>{{artist}}</div>
+  <div :style="{transformOrigin: 'left top', transform: 'scale(' + width / 70.0 + ')', width: '63px'}">{{toHhmm(start)}}-{{toHhmm(end)}}<br/>{{artist}}</div>
 </div>
 </template>
 
