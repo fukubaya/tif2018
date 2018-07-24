@@ -145,32 +145,12 @@ export default {
   position: relative;
 }
 .main-body > div > .placeholder-cell {
-//  height: 53px;
   border-right: 1px solid #e8e8e8;
 }
 .main-body > div > div.placeholder-cell:nth-child(odd) {
   border-top: 1px dotted #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
 }
-/*
-.main-body > div > .task-placeholder > div {
-  position: absolute;
-  overflow: hidden;
-  background-color: #ffffff;
-  padding: 1px;
-  box-sizing: border-box;
-  box-shadow: 0px 0.125em 0.25em rgba(0,0,0,.25);
-  margin-top: 0;
-  cursor: pointer;
-  color: #000000;
-  word-wrap: break-word;
-  min-width: 0;
-  min-height: 0;
-  transition: all .4s;
-  font-size: 10px;
-  width: 9vw;
-  line-height: 1;
-}*/
 </style>
 
  
