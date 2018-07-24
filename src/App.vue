@@ -1,5 +1,11 @@
 <template>
   <div id="app">
+    <el-alert
+      title="スマートフォンでは「ホーム画面に追加」するとインストールできます。"
+      type="info"
+      @close="closeInfo"
+      v-show="showInfo"
+      show-icon></el-alert>
     <el-tabs type="card">
       <el-tab-pane label="8/3(金)">
         <Timetable :width="windowWidth" name="day1" :schedules="day1"></Timetable>
@@ -17,14 +23,17 @@
 <script>
 import Vue from 'vue'
 // ElementUI
-import {Tabs, TabPane} from 'element-ui'
+import {Tabs, TabPane, Alert} from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale/lang/ja'
+import Storage from '@/js/mystorage.js'
+const storage = new Storage(localStorage, 'tif2018');
 
 
 Vue.prototype.$ELEMENT = {size: 'small'};
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Alert)
 
 import Timetable from '@/components/Timetable.vue'
 import timetableData from '@/js/time.json'
@@ -87,9 +96,16 @@ export default {
     },
     day3() {
       return this.convertTimetable(this.timetableData.day3);
+    },
+    showInfo() {
+      const flag = storage.getItem('displayedInfo');
+      return flag === null || !flag;
     }
   },
   methods: {
+    closeInfo(e) {
+      storage.setItem('displayedInfo', true);
+    },
     updateWindowSize(e) {
         this.windowWidth = document.documentElement.clientWidth;
     },
