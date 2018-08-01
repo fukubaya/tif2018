@@ -902,9 +902,51 @@
         ],
         "INFO CENTRE": [
             {
+                "start": "1100",
+                "end": "1130",
+                "artist": "TOKYO GRAVURE IDOL FESTIVAL 2018 トークの部 DAY１",
+                "detail": "null"
+            },
+            {
+                "start": "1140",
+                "end": "1225",
+                "artist": "スーパーファンタジー  TIF2018スペシャルステージ",
+                "detail": "null"
+            },
+            {
+                "start": "1235",
+                "end": "1305",
+                "artist": "楽天チケットスペシャルステージ",
+                "detail": "ＭＣ：クロちゃん（安田大サーカス）<br><br>Run Girls,Run!"
+            },
+            {
+                "start": "1315",
+                "end": "1345",
+                "artist": "スペシャルトークステージ supported by生メール",
+                "detail": "null"
+            },
+            {
+                "start": "1400",
+                "end": "1450",
+                "artist": "cookpadTV クックアイドルNo.１ 決定戦 トークステージ",
+                "detail": "null"
+            },
+            {
+                "start": "1500",
+                "end": "1600",
+                "artist": "ミュージックパーク エンタメシンポジウム",
+                "detail": "MC：吉田尚記（ニッポン放送）"
+            },
+            {
                 "start": "1615",
                 "end": "1715",
                 "artist": "アイドルカラオケバトル2018",
+                "detail": "null"
+            },
+            {
+                "start": "1725",
+                "end": "1740",
+                "artist": "TOKYO IDOL PROJECT  × @JAM トークショー",
                 "detail": "null"
             },
             {
@@ -1163,7 +1205,7 @@
                 "start": "1550",
                 "end": "1620",
                 "artist": "WACK presents  DREAMLIGHTS in TIF",
-                "detail": "アイナ・ジ・エンド×松隈ケンタ<br>SAiNT SEX<br>ユイ・ガ・ドクソン(GANG PARADE)"
+                "detail": "アイナ・ジ・エンド×松隈ケンタ<br>SAiNT SEX<br>HOLY SHiTS<br>ユイ・ガ・ドクソン(GANG PARADE)"
             },
             {
                 "start": "1625",
@@ -2081,12 +2123,12 @@
                 "start": "1100",
                 "end": "1250",
                 "artist": "アームレスリング大会  powerd by TOWER RECORDS ザ・感謝祭 予選",
-                "detail": "null"
+                "detail": "※４　出演者は下記に記載"
             },
             {
                 "start": "1300",
                 "end": "1350",
-                "artist": "TIF2018アザーレコメンドLIVE ウィナートークステージ",
+                "artist": "TIF2018アザーレコメンドLIVE WINNERトークステージ",
                 "detail": "tipToe.<br>あそびダンジョン<br>会心ノ一撃<br>"
             },
             {
@@ -2094,6 +2136,24 @@
                 "end": "1505",
                 "artist": "TIF2018アイドルクイズ王決定戦",
                 "detail": "浅野杏奈(マジカル・パンチライン)<br>ゆりな(ネコプラ)<br>飯田結万(純粋カフェ・ラッテ)<br>寺嶋由芙<br>冨田樹梨亜(アイドルカレッジ)<br><br>司会 吉田尚記(ニッポン放送)<br>作問・正誤判定 古川洋平(クイズ法人カプリティオ)"
+            },
+            {
+                "start": "1515",
+                "end": "1545",
+                "artist": "楽天チケットスペシャルステージ",
+                "detail": "ＭＣ：クロちゃん（安田大サーカス）<br><br>天晴れ！原宿"
+            },
+            {
+                "start": "1555",
+                "end": "1625",
+                "artist": "スーパーファンタジー  TIF2018スペシャルステージ",
+                "detail": "null"
+            },
+            {
+                "start": "1635",
+                "end": "1705",
+                "artist": "TOKYO GRAVURE IDOL FESTIVAL 2018 トークの部 DAY２",
+                "detail": "null"
             },
             {
                 "start": "1740",
@@ -2338,7 +2398,7 @@
             {
                 "start": "1410",
                 "end": "1430",
-                "artist": "TIF2018メインステージ争奪LIVE ウィナーステージ",
+                "artist": "TIF2018メインステージ争奪LIVE WINNERステージ",
                 "detail": "null"
             },
             {
@@ -2452,12 +2512,6 @@
                 "detail": "転校少女*<br>２代目HAPPY少女♪<br>たけやま３．５<br>Shine Fine Movement<br><br>ゲスト：フィロソフィーのダンス<br><br>MC：ユリオカ超特Q<br>　 　奥津マリリ（フィロソフィーのダンス）<br>"
             },
             {
-                "start": "1305",
-                "end": "1315",
-                "artist": "Road to TIF 2位",
-                "detail": "Spindle"
-            },
-            {
                 "start": "1315",
                 "end": "1330",
                 "artist": "LinQ",
@@ -2473,7 +2527,7 @@
                 "start": "1350",
                 "end": "1425",
                 "artist": "MIX FORTUNE LIVE",
-                "detail": "煌めきアンフォレント"
+                "detail": "煌めき☆アンフォレント<br>サンスポアイドルリポーター SIR"
             },
             {
                 "start": "1430",
@@ -2822,12 +2876,6 @@
                 "detail": "null"
             },
             {
-                "start": "1435",
-                "end": "1455",
-                "artist": "調整中",
-                "detail": "null"
-            },
-            {
                 "start": "1530",
                 "end": "1600",
                 "artist": "サマソニ×TIF",
@@ -3066,6 +3114,12 @@
         ],
         "DREAM STAGE": [
             {
+                "start": "1110",
+                "end": "1120",
+                "artist": "Road to TIF 2位",
+                "detail": "Spindle"
+            },
+            {
                 "start": "1120",
                 "end": "1140",
                 "artist": "ばってん少女隊",
@@ -3200,16 +3254,34 @@
         ],
         "INFO CENTRE": [
             {
-                "start": "1150",
-                "end": "1220",
-                "artist": "TIF海外遠征報告会",
+                "start": "1000",
+                "end": "1030",
+                "artist": "TOKYO GRAVURE IDOL FESTIVAL 2018 トークの部 DAY３",
                 "detail": "null"
+            },
+            {
+                "start": "1040",
+                "end": "1100",
+                "artist": "楽天チケットスペシャルステージ",
+                "detail": "ＭＣ：クロちゃん（安田大サーカス）<br><br>転校少女*"
+            },
+            {
+                "start": "1120",
+                "end": "1150",
+                "artist": "TIF海外遠征報告会",
+                "detail": "MC：鶴見萌（虹のコンキスタドール）<br><br>=LOVE <br>Task have Fun <br>9nine <br>まねきケチャ"
             },
             {
                 "start": "1320",
                 "end": "1420",
                 "artist": "全国選抜ライブ優勝者トークステージ",
-                "detail": "純粋カフェ・ラッテ<br>九州女子翼<br>まぜるなきけん<br>フルーレット<br>２代目HAPPY少女♪<br>Gallop+<br>大宮I☆DOLL"
+                "detail": "MC：吉田尚記（ニッポン放送）<br>【前半】<br>純粋カフェ・ラッテ（森ふうか、羽生ひでこ）<br>九州女子翼（実玖、新谷香苗）<br>フルーレット（辻梨央、涼賀あかり）<br>2代目HAPPY少女♪（宮崎ゆいな、本田みく）<br>【後半】<br>まぜるなきけん（カーリー、はるにゃん）<br>Gallop+（茅埜琴子、麻丘れいな）<br>大宮I☆DOLL（今野梨奈、本城千絵）"
+            },
+            {
+                "start": "1430",
+                "end": "1520",
+                "artist": "スーパーファンタジー  TIF2018スペシャルステージ",
+                "detail": "null"
             },
             {
                 "start": "1530",
@@ -3222,6 +3294,18 @@
                 "end": "1630",
                 "artist": "ミュ〜コミ+プラス しゃべれる女王決定戦2018",
                 "detail": "江嶋綾恵梨（26時のマスカレイド）<br>大場はるか（ナナランド）<br>空野青空<br>中江友梨（東京女子流）<br>水春（桜エビ〜ず）<br><br><br>MC：吉田尚記（ニッポン放送）<br>プレゼンター: 橘はるか（Jewel☆Rouge期間限定サポートメンバー）<br>審査員: 五戸美樹（フリーアナウンサー）"
+            },
+            {
+                "start": "1720",
+                "end": "1750",
+                "artist": "スペシャルトークステージ supported by生メール",
+                "detail": "null"
+            },
+            {
+                "start": "1800",
+                "end": "1850",
+                "artist": "Thank you for 『TIFへの扉』トークステージ",
+                "detail": "null"
             },
             {
                 "start": "1900",
