@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header">
       <div v-for="stage in schedules" :style="{color: stage.color, flex: '0 0 ' + cellWidth + 'px'}">
-        <div :style="{transformOrigin: 'left top', transform: 'scale(' + (cellWidth / 120.0) + ')', width: '120px'}">{{stage.name}}</div>
+        <div :style="{transformOrigin: 'left top', transform: 'scale(' + (cellWidth / 120.0) + ')', width: '120px', height: (cellWidth * 0.5) + 'px'}">{{stage.name}}</div>
       </div>
     </div>
     <div class="main">
@@ -101,12 +101,11 @@ export default {
   border-left: 1px solid #e8e8e8;
   display: flex;
   padding-left: 24px;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .header > div {
-  flex: 0 0 10vw;
   padding: 5px 0;
   background-color: #f0f0f0;
   border-left: 1px solid #e8e8e8;
