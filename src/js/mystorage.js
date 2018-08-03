@@ -10,6 +10,10 @@ export default class MyStorage {
     this.storage.setItem(this.keyPrefix + '-' + key, JSON.stringify(value));
   }
   getItem(key) {
-    return JSON.parse(this.storage.getItem(this.keyPrefix + '-' + key));
+    try {
+      return JSON.parse(this.storage.getItem(this.keyPrefix + '-' + key));
+    } catch (e) {
+      return null;
+    }
   }
 }
