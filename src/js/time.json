@@ -926,12 +926,6 @@
                 "detail": "null"
             },
             {
-                "start": "1400",
-                "end": "1450",
-                "artist": "cookpadTV　クックアイドルNo.1 決定戦　振り返りトークステージ",
-                "detail": "MC:酒井瞳<br><br>出演：=LOVE 瀧脇笙古、Q-pitch 榎本あやせ、ネコプラ みく、ネコプラ ゆりな"
-            },
-            {
                 "start": "1500",
                 "end": "1600",
                 "artist": "ミュージックパーク エンタメシンポジウム",
@@ -948,6 +942,12 @@
                 "end": "1740",
                 "artist": "TOKYO IDOL PROJECT  × @JAM トークショー",
                 "detail": "null"
+            },
+            {
+                "start": "1800",
+                "end": "1850",
+                "artist": "cookpadTV　クックアイドルNo.1 決定戦　振り返りトークステージ",
+                "detail": "MC:酒井瞳<br><br>出演：=LOVE 瀧脇笙古、Q-pitch 榎本あやせ、ネコプラ みく、ネコプラ ゆりな"
             },
             {
                 "start": "1900",
